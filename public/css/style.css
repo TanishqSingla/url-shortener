@@ -1,3 +1,29 @@
 body {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #ef233c;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  color: white;
+}
+
+main {
+  height: 80vh;
+  background: #edf2f4;
+}
+
+footer {
+  background: #2b2d42;
+  height: 100%;
 }
