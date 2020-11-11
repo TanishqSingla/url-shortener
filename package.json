@@ -5,6 +5,7 @@
   "author": "TanishqSingla <tanishqsingla00@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1"
   }
 }
