@@ -20,7 +20,12 @@ header h1 {
 
 main {
   height: 80vh;
+  padding-top: 2rem;
   background: #edf2f4;
+}
+
+table {
+  margin: 0 auto;
 }
 
 footer {
