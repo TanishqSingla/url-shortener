@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Url Shortener</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-        <h1>Url Shortener</h1>
+      <h1>Url Shortener</h1>
     </header>
     <main>
+      <form method="POST" action="/shortenUrl">
+        <label></label>
+        <input type="url" name="fullurl" id="fullurl" />
+        <input type="submit" value="Shorten" />
+      </form>
       <table>
         <thead>
           <tr>
